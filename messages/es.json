@@ -1,0 +1,390 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "shop": "Tienda",
+    "about": "Sobre Nosotros",
+    "contact": "Contacto",
+    "cart": "Carrito"
+  },
+  "footer": {
+    "brand": {
+      "description": "Llevando alegría a niños en todas partes con juguetes seguros, divertidos y educativos para cada edad y etapa."
+    },
+    "sections": {
+      "navigation": "Navegación",
+      "categories": "Categorías",
+      "contact": "Ponte en Contacto",
+      "help": "Ayuda y Soporte"
+    },
+    "categories": {
+      "actionFigures": "Figuras de Acción",
+      "boardGames": "Juegos de Mesa",
+      "educational": "Educativos",
+      "outdoor": "Exterior",
+      "artsCrafts": "Artes y Manualidades",
+      "vehicles": "Vehículos"
+    },
+    "help": {
+      "shipping": "Información de Envío",
+      "returns": "Devoluciones e Intercambios",
+      "faq": "Preguntas Frecuentes",
+      "contact": "Contactar Soporte"
+    },
+    "copyright": "© {year} {brand}. Todos los derechos reservados.",
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio"
+    }
+  },
+  "about": {
+    "cta": {
+      "contact": "Ponte en Contacto",
+      "shop": "Comprar Ahora",
+      "subtitle": "¿Listo para encontrar el juguete perfecto? Hagamos que el tiempo de juego sea mágico.",
+      "title": "Únete a Nuestra Comunidad Lúdica"
+    },
+    "eyebrow": "Nuestra Historia",
+    "hero": {
+      "subtitle": "Creando alegría, un juguete a la vez desde el principio.",
+      "title": "El Juego Inspira Todo lo que Hacemos"
+    },
+    "story": {
+      "eyebrow": "Cómo Comenzó",
+      "p1": "Comenzamos con una creencia simple: cada niño merece juguetes que despierten la imaginación y traigan sonrisas infinitas. Nuestros fundadores seleccionaron cuidadosamente cada juguete para garantizar calidad, seguridad y diversión pura.",
+      "p2": "Hoy, nos enorgullece entregar colecciones cuidadosamente seleccionadas en las que los padres confían y que los niños aman. Cada compra apoya nuestra misión de hacer el juego accesible para todos.",
+      "title": "Construido sobre el Juego, Impulsado por Propósito"
+    },
+    "team": {
+      "eyebrow": "Conoce al Equipo",
+      "subtitle": "Amantes de juguetes, padres y soñadores trabajando para iluminar la infancia.",
+      "title": "Los Rostros Detrás de la Diversión"
+    },
+    "timeline": {
+      "eyebrow": "Nuestro Viaje",
+      "title": "De la Pasión al Tiempo de Juego"
+    },
+    "trust": {
+      "label": "Confiado por familias en todas partes"
+    },
+    "values": {
+      "eyebrow": "En Qué Creemos",
+      "subtitle": "Calidad, seguridad y alegría en cada caja.",
+      "title": "Nuestros Valores Fundamentales"
+    }
+  },
+  "cart": {
+    "badge1": "Envío Gratis",
+    "badge2": "Devoluciones en 30 Días",
+    "badge3": "Satisfacción Garantizada",
+    "checkoutCta": "Ir al Pago",
+    "continueShopping": "Continuar Comprando",
+    "decreaseQty": "Disminuir Cantidad",
+    "emptyBody": "¡Parece que tu carrito está listo para algunos juguetes!",
+    "emptyShopCta": "Comenzar a Comprar",
+    "emptyTitle": "Tu Carrito Está Vacío",
+    "freeShipping": "Envío Gratis",
+    "freeShippingHint": "Envío gratis en pedidos mayores a $50",
+    "increaseQty": "Aumentar Cantidad",
+    "itemCount": "artículos en el carrito",
+    "pageTitle": "Carrito de Compras",
+    "promoApplied": "Código promocional aplicado",
+    "promoApply": "Aplicar",
+    "promoDiscount": "Descuento",
+    "promoHint": "¿Tienes un código promocional? Ingrésalo aquí.",
+    "promoLabel": "Código Promocional",
+    "promoPlaceholder": "Ingresa el código",
+    "promoSuccess": "¡Excelente! Tu descuento ha sido aplicado.",
+    "quickAdd": "Agregar Rápido",
+    "removeItem": "Eliminar",
+    "saleBadge": "Oferta",
+    "shipping": "Envío",
+    "subtotal": "Subtotal",
+    "summaryTitle": "Resumen del Pedido",
+    "total": "Total",
+    "youMightLike": "Podrían Interesarte"
+  },
+  "categories": {
+    "eyebrow": "Comprar por Categoría",
+    "heading": "Comprar por Categoría",
+    "subtext": "Encuentra el juguete perfecto para cada edad e interés."
+  },
+  "checkout": {
+    "breadcrumb": {
+      "cart": "Carrito",
+      "checkout": "Pago"
+    },
+    "contact": {
+      "email": "Correo Electrónico",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "phone": "Número de Teléfono",
+      "title": "Información de Contacto"
+    },
+    "errors": {
+      "invalidCard": "Por favor, ingresa un número de tarjeta válido.",
+      "invalidCvv": "El CVV debe tener 3 o 4 dígitos.",
+      "invalidEmail": "Por favor, ingresa una dirección de correo válida.",
+      "invalidExpiry": "Por favor, ingresa una fecha de vencimiento válida.",
+      "required": "Este campo es obligatorio."
+    },
+    "heading": "Completa tu Pedido",
+    "payment": {
+      "cardName": "Nombre del Titular",
+      "cardNumber": "Número de Tarjeta",
+      "cvv": "CVV",
+      "expiry": "Fecha de Vencimiento",
+      "secure": "Tu pago es seguro y está encriptado.",
+      "title": "Método de Pago"
+    },
+    "placeOrder": "Realizar Pedido",
+    "secureNote": "Protegemos tu información con seguridad de nivel industrial.",
+    "shipping": {
+      "address": "Dirección",
+      "city": "Ciudad",
+      "country": "País",
+      "state": "Estado/Provincia",
+      "title": "Dirección de Envío",
+      "zip": "Código Postal"
+    },
+    "subheading": "Revisa tus artículos y completa el pago.",
+    "success": {
+      "cta": "Seguir Comprando",
+      "emailNote": "Se ha enviado un correo de confirmación a tu bandeja de entrada.",
+      "orderNumber": "Número de Pedido",
+      "subtitle": "¡Gracias por tu compra!",
+      "title": "Pedido Confirmado"
+    },
+    "summary": {
+      "freeShipping": "Envío Gratis",
+      "freeShippingNote": "En pedidos mayores a $50",
+      "promoApply": "Aplicar",
+      "promoLabel": "Código Promocional",
+      "promoPlaceholder": "Ingresa el código",
+      "shipping": "Envío",
+      "subtotal": "Subtotal",
+      "title": "Resumen del Pedido",
+      "total": "Total"
+    }
+  },
+  "contact": {
+    "badge": "Ponte en Contacto",
+    "cta": {
+      "body": "¿Tienes preguntas? Nuestro equipo está aquí para ayudarte con pedidos, información de productos y más.",
+      "button": "Contáctanos",
+      "eyebrow": "¿Preguntas?",
+      "title": "Estamos Aquí para Ayudarte"
+    },
+    "faq": {
+      "heading": "Preguntas Frecuentes",
+      "subheading": "Encuentra respuestas a preguntas comunes"
+    },
+    "form": {
+      "emailLabel": "Correo Electrónico",
+      "emailPlaceholder": "tu@ejemplo.com",
+      "heading": "Ponte en Contacto",
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntanos cómo podemos ayudarte...",
+      "nameLabel": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "sendAnother": "Enviar otro mensaje",
+      "subheading": "Nos encantaría saber de ti. Completa el formulario a continuación.",
+      "subjectLabel": "Asunto",
+      "subjectOrder": "Estado del Pedido",
+      "subjectOther": "Otro",
+      "subjectPlaceholder": "Elige un tema",
+      "subjectProduct": "Pregunta sobre Producto",
+      "subjectReturn": "Devoluciones e Intercambios",
+      "subjectWholesale": "Consulta de Mayoreo",
+      "submit": "Enviar Mensaje",
+      "successBody": "¡Gracias por comunicarte! Te responderemos dentro de 24 horas.",
+      "successTitle": "¡Mensaje enviado!"
+    },
+    "hero": {
+      "subtitle": "¿Preguntas? Estamos aquí para ayudarte.",
+      "title": "Contáctanos"
+    },
+    "info": {
+      "body": "Comunícate en cualquier momento—estamos felices de ayudarte con pedidos, devoluciones o preguntas sobre productos.",
+      "hours1": "Lunes – Viernes: 9am – 6pm EST",
+      "hours2": "Sábado: 10am – 4pm EST",
+      "hours3": "Domingo: Cerrado",
+      "title": "Horario y Soporte"
+    },
+    "map": {
+      "note": "Visítanos o llama para asistencia inmediata"
+    }
+  },
+  "cta": {
+    "contact": "Contáctanos",
+    "heading": "¿Listo para jugar?",
+    "shopNow": "Comprar Ahora",
+    "subtext": "Explora nuestra colección completa de juguetes para todas las edades."
+  },
+  "featured": {
+    "addToCart": "Agregar al Carrito",
+    "eyebrow": "Selección de Esta Semana",
+    "heading": "Juguetes Destacados",
+    "viewAll": "Ver Todo"
+  },
+  "hero": {
+    "badge": "Envío Gratis en Pedidos Mayores a $50",
+    "cta": {
+      "learn": "Más Información",
+      "shop": "Comprar Ahora"
+    },
+    "floatingBadge": {
+      "label": "Nuevas Llegadas",
+      "value": "50+ Juguetes"
+    },
+    "headline1": "La Diversión Comienza Aquí",
+    "headline2": "Descubre juguetes que despiertan la alegría y la imaginación",
+    "imageAlt": "Juguetes coloridos y sets de juego",
+    "ratingBadge": "⭐ 4.9/5 de 2,000+ Reseñas",
+    "subtext": "Juguetes de calidad para niños de todas las edades. Seguros, divertidos y duraderos."
+  },
+  "productDetail": {
+    "addToCart": "Agregar al Carrito",
+    "addedToCart": "Agregado al Carrito",
+    "ageLabel": "Edades",
+    "breadcrumb": {
+      "home": "Inicio",
+      "shop": "Tienda"
+    },
+    "breadcrumbHome": "Inicio",
+    "breadcrumbShop": "Tienda",
+    "browseAll": "Ver todos los juguetes",
+    "cta": {
+      "body": "Únete a miles de familias felices descubriendo el juguete perfecto.",
+      "button": "Agregar al Carrito",
+      "heading": "¿Listo para jugar?"
+    },
+    "decreaseQty": "Disminuir cantidad",
+    "faq": {
+      "a1": "La mayoría de pedidos se envían en 2-3 días hábiles. Los tiempos de entrega varían según la ubicación.",
+      "a2": "Ofrecemos devoluciones sin complicaciones dentro de 30 días de la compra para artículos sin usar.",
+      "a3": "Sí, todos nuestros juguetes cumplen o superan los estándares de seguridad y se prueban para garantizar calidad.",
+      "heading": "Preguntas Frecuentes",
+      "q1": "¿Cuánto tarda el envío?",
+      "q2": "¿Cuál es tu política de devoluciones?",
+      "q3": "¿Son seguros estos juguetes?"
+    },
+    "features": {
+      "heading": "Por qué les encanta a los niños"
+    },
+    "featuresTitle": "Características Principales",
+    "inStock": "En stock",
+    "increaseQty": "Aumentar cantidad",
+    "nextImage": "Siguiente imagen",
+    "outOfStock": "Agotado",
+    "prevImage": "Imagen anterior",
+    "quantityLabel": "Cantidad",
+    "related": {
+      "heading": "También te podría gustar"
+    },
+    "relatedSubtitle": "Descubre juguetes similares",
+    "relatedTitle": "Productos Relacionados",
+    "remaining": "Solo {count} disponibles",
+    "reviews": {
+      "heading": "Reseñas de Clientes",
+      "total": "{count} reseñas",
+      "verified": "Compra verificada",
+      "writeReview": "Escribir una reseña"
+    },
+    "reviewsSubtitle": "Comentarios reales de familias reales",
+    "reviewsTitle": "Lo que Dicen los Padres",
+    "save": "Guardar",
+    "saveLabel": "Guardar para después",
+    "share": "Compartir",
+    "specs": {
+      "heading": "Especificaciones"
+    },
+    "thumbnailAlt": "Miniatura de imagen del producto",
+    "trust": {
+      "returns": "Devoluciones en 30 días",
+      "safety": "Probado de seguridad",
+      "shipping": "Envío rápido"
+    },
+    "trustReturns": "Devoluciones sin complicaciones",
+    "trustSafe": "Certificado de seguridad",
+    "trustShipping": "Envío en 2-3 días",
+    "verified": "Verificado",
+    "wishlist": "Agregar a lista de deseos"
+  },
+  "shop": {
+    "addToCart": "Agregar al carrito",
+    "added": "Agregado al carrito",
+    "eyebrow": "Descubre Nuestra Colección",
+    "filter": {
+      "ageGroup": "Grupo de Edad",
+      "brand": "Marca",
+      "category": "Categoría",
+      "clear": "Limpiar Filtros",
+      "price": "Precio",
+      "title": "Filtros",
+      "upTo": "Hasta"
+    },
+    "heading": "Tienda de Juguetes",
+    "noResults": {
+      "body": "Intenta ajustar tus filtros o términos de búsqueda para encontrar lo que buscas.",
+      "cta": "Ver Todos los Juguetes",
+      "title": "No se encontraron juguetes"
+    },
+    "outOfStock": "Agotado",
+    "resultCount": "Mostrando {count} resultados",
+    "searchPlaceholder": "Buscar juguetes...",
+    "subheading": "Descubre alegría en cada juguete"
+  },
+  "shopProducts": {
+    "empty": {
+      "cta": "Comenzar a Comprar",
+      "subtitle": "Encontremos el juguete perfecto para ti.",
+      "title": "Tu carrito está vacío"
+    },
+    "filters": {
+      "ageGroup": "Grupo de Edad",
+      "apply": "Aplicar Filtros",
+      "category": "Categoría",
+      "clearAll": "Limpiar Todo",
+      "toggle": "Mostrar Filtros"
+    },
+    "hero": {
+      "subtitle": "Juguetes seleccionados para cada edad e interés",
+      "title": "Encuentra Tu Próximo Juguete Favorito"
+    },
+    "newsletter": {
+      "cta": "Suscribirse",
+      "placeholder": "Ingresa tu correo electrónico",
+      "subtitle": "Obtén ofertas exclusivas y nuevas llegadas primero.",
+      "title": "Únete a Nuestro Club de Juguetes"
+    },
+    "product": {
+      "addToCart": "Agregar al Carrito",
+      "ages": "Edades {min}–{max}",
+      "outOfStock": "Agotado",
+      "wishlist": "Agregar a Lista de Deseos"
+    },
+    "results": {
+      "count": "{count} juguetes encontrados"
+    },
+    "search": {
+      "placeholder": "Busca por nombre, marca o tipo..."
+    }
+  },
+  "story": {
+    "award": {
+      "label": "Premio",
+      "value": "Mejor Tienda de Juguetes 2024"
+    },
+    "body1": "Creemos que el juego es la base de la alegría y el aprendizaje infantil. Durante más de una década, hemos seleccionado los mejores juguetes de marcas confiables en todo el mundo.",
+    "body2": "Cada juguete en nuestra colección se elige por su calidad, seguridad y las sonrisas que trae. Nos comprometemos a hacer que el tiempo de juego sea mágico para cada niño.",
+    "cta": "Conoce Más Sobre Nosotros",
+    "eyebrow": "Nuestra Historia",
+    "heading": "Juguetes Que Despiertan Alegría",
+    "imageAlt": "Niños jugando con juguetes"
+  },
+  "testimonials": {
+    "eyebrow": "Lo Que Dicen los Padres",
+    "heading": "Amado por Familias",
+    "subtext": "Únete a miles de padres felices que confían en nosotros para juguetes de calidad"
+  }
+}

@@ -1,0 +1,170 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --background: #FFFBF5;
+  --foreground: #1A1A2E;
+  --card: #FFFFFF;
+  --border: #E8E0D5;
+  --muted: #F5F0E8;
+  --muted-foreground: #6B6570;
+
+  --brand-red: #FF6B6B;
+  --brand-yellow: #FFD93D;
+  --brand-green: #6BCB77;
+  --brand-blue: #4D96FF;
+  --brand-purple: #C77DFF;
+
+  --accent: #FF6B6B;
+  --accent-foreground: #FFFFFF;
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+    --brand-accent: 0 0% 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Nunito', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-nunito {
+  font-family: 'Nunito', system-ui, sans-serif;
+}
+
+/* Custom font weight utilities */
+.font-700 { font-weight: 700; }
+.font-800 { font-weight: 800; }
+.font-900 { font-weight: 900; }
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--muted);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-red);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e55555;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--brand-red);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--brand-yellow);
+  color: var(--foreground);
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
+
+/* Badge styles */
+.badge-new {
+  background-color: var(--brand-green);
+  color: white;
+}
+.badge-sale {
+  background-color: var(--brand-red);
+  color: white;
+}
+.badge-bestseller {
+  background-color: var(--brand-yellow);
+  color: var(--foreground);
+}
+.badge-limited {
+  background-color: var(--brand-purple);
+  color: white;
+}
+
+/* Star rating */
+.star-filled {
+  color: var(--brand-yellow);
+  fill: var(--brand-yellow);
+}
+.star-empty {
+  color: #D1C4B0;
+}
+
+/* Card hover lift */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--brand-red), var(--brand-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Blob animation */
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  25% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+  50% { border-radius: 50% 60% 30% 60% / 30% 40% 70% 60%; }
+  75% { border-radius: 60% 40% 60% 30% / 70% 30% 50% 40%; }
+}
+.animate-blob {
+  animation: blob 8s ease-in-out infinite;
+}
+
+/* Wiggle animation */
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+/* Float animation */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Pulse glow */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 107, 107, 0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(255, 107, 107, 0); }
+}
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

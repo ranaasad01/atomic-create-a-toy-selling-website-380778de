@@ -1,0 +1,390 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About Us",
+    "contact": "Contact",
+    "cart": "Cart"
+  },
+  "footer": {
+    "brand": {
+      "description": "Bringing joy to children everywhere with safe, fun, and educational toys for every age and stage."
+    },
+    "sections": {
+      "navigation": "Navigation",
+      "categories": "Categories",
+      "contact": "Get in Touch",
+      "help": "Help & Support"
+    },
+    "categories": {
+      "actionFigures": "Action Figures",
+      "boardGames": "Board Games",
+      "educational": "Educational",
+      "outdoor": "Outdoor",
+      "artsCrafts": "Arts & Crafts",
+      "vehicles": "Vehicles"
+    },
+    "help": {
+      "shipping": "Shipping Info",
+      "returns": "Returns & Exchanges",
+      "faq": "FAQ",
+      "contact": "Contact Support"
+    },
+    "copyright": "© {year} {brand}. All rights reserved.",
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "about": {
+    "cta": {
+      "contact": "Get in Touch",
+      "shop": "Shop Now",
+      "subtitle": "Ready to find the perfect toy? Let's make playtime magical.",
+      "title": "Join Our Playful Community"
+    },
+    "eyebrow": "Our Story",
+    "hero": {
+      "subtitle": "Crafting joy, one toy at a time since day one.",
+      "title": "Play Inspires Everything We Do"
+    },
+    "story": {
+      "eyebrow": "How It Started",
+      "p1": "We began with a simple belief: every child deserves toys that spark imagination and bring endless smiles. Our founders handpicked each toy to ensure quality, safety, and pure fun.",
+      "p2": "Today, we're proud to deliver carefully curated collections that parents trust and kids love. Every purchase supports our mission to make play accessible to all.",
+      "title": "Built on Play, Driven by Purpose"
+    },
+    "team": {
+      "eyebrow": "Meet the Team",
+      "subtitle": "Toy lovers, parents, and dreamers working to brighten childhoods.",
+      "title": "The Faces Behind the Fun"
+    },
+    "timeline": {
+      "eyebrow": "Our Journey",
+      "title": "From Passion to Playtime"
+    },
+    "trust": {
+      "label": "Trusted by families everywhere"
+    },
+    "values": {
+      "eyebrow": "What We Stand For",
+      "subtitle": "Quality, safety, and joy in every box.",
+      "title": "Our Core Values"
+    }
+  },
+  "cart": {
+    "badge1": "Free Shipping",
+    "badge2": "30-Day Returns",
+    "badge3": "Satisfaction Guaranteed",
+    "checkoutCta": "Proceed to Checkout",
+    "continueShopping": "Continue Shopping",
+    "decreaseQty": "Decrease Quantity",
+    "emptyBody": "Looks like your cart is ready for some toys!",
+    "emptyShopCta": "Start Shopping",
+    "emptyTitle": "Your Cart Is Empty",
+    "freeShipping": "Free Shipping",
+    "freeShippingHint": "Free shipping on orders over $50",
+    "increaseQty": "Increase Quantity",
+    "itemCount": "items in cart",
+    "pageTitle": "Shopping Cart",
+    "promoApplied": "Promo code applied",
+    "promoApply": "Apply",
+    "promoDiscount": "Discount",
+    "promoHint": "Have a promo code? Enter it here.",
+    "promoLabel": "Promo Code",
+    "promoPlaceholder": "Enter code",
+    "promoSuccess": "Great! Your discount has been applied.",
+    "quickAdd": "Quick Add",
+    "removeItem": "Remove",
+    "saleBadge": "Sale",
+    "shipping": "Shipping",
+    "subtotal": "Subtotal",
+    "summaryTitle": "Order Summary",
+    "total": "Total",
+    "youMightLike": "You Might Like"
+  },
+  "categories": {
+    "eyebrow": "Shop by Category",
+    "heading": "Shop by Category",
+    "subtext": "Find the perfect toy for every age and interest."
+  },
+  "checkout": {
+    "breadcrumb": {
+      "cart": "Cart",
+      "checkout": "Checkout"
+    },
+    "contact": {
+      "email": "Email",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "phone": "Phone Number",
+      "title": "Contact Information"
+    },
+    "errors": {
+      "invalidCard": "Please enter a valid card number.",
+      "invalidCvv": "CVV must be 3 or 4 digits.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidExpiry": "Please enter a valid expiration date.",
+      "required": "This field is required."
+    },
+    "heading": "Complete Your Order",
+    "payment": {
+      "cardName": "Cardholder Name",
+      "cardNumber": "Card Number",
+      "cvv": "CVV",
+      "expiry": "Expiration Date",
+      "secure": "Your payment is secure and encrypted.",
+      "title": "Payment Method"
+    },
+    "placeOrder": "Place Order",
+    "secureNote": "We protect your information with industry-leading security.",
+    "shipping": {
+      "address": "Street Address",
+      "city": "City",
+      "country": "Country",
+      "state": "State/Province",
+      "title": "Shipping Address",
+      "zip": "ZIP/Postal Code"
+    },
+    "subheading": "Review your items and complete payment.",
+    "success": {
+      "cta": "Continue Shopping",
+      "emailNote": "A confirmation email has been sent to your inbox.",
+      "orderNumber": "Order Number",
+      "subtitle": "Thank you for your purchase!",
+      "title": "Order Confirmed"
+    },
+    "summary": {
+      "freeShipping": "Free Shipping",
+      "freeShippingNote": "On orders over $50",
+      "promoApply": "Apply",
+      "promoLabel": "Promo Code",
+      "promoPlaceholder": "Enter code",
+      "shipping": "Shipping",
+      "subtotal": "Subtotal",
+      "title": "Order Summary",
+      "total": "Total"
+    }
+  },
+  "contact": {
+    "badge": "Get in Touch",
+    "cta": {
+      "body": "Have questions? Our team is here to help with orders, product info, and more.",
+      "button": "Contact Us",
+      "eyebrow": "Questions?",
+      "title": "We're Here to Help"
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "subheading": "Find answers to common questions"
+    },
+    "form": {
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "heading": "Get in Touch",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us how we can help...",
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "sendAnother": "Send another message",
+      "subheading": "We'd love to hear from you. Fill out the form below.",
+      "subjectLabel": "Subject",
+      "subjectOrder": "Order Status",
+      "subjectOther": "Other",
+      "subjectPlaceholder": "Choose a topic",
+      "subjectProduct": "Product Question",
+      "subjectReturn": "Returns & Exchanges",
+      "subjectWholesale": "Wholesale Inquiry",
+      "submit": "Send Message",
+      "successBody": "Thanks for reaching out! We'll get back to you within 24 hours.",
+      "successTitle": "Message sent!"
+    },
+    "hero": {
+      "subtitle": "Questions? We're here to help.",
+      "title": "Contact Us"
+    },
+    "info": {
+      "body": "Reach out anytime—we're happy to assist with orders, returns, or product questions.",
+      "hours1": "Monday – Friday: 9am – 6pm EST",
+      "hours2": "Saturday: 10am – 4pm EST",
+      "hours3": "Sunday: Closed",
+      "title": "Hours & Support"
+    },
+    "map": {
+      "note": "Visit us or call for immediate assistance"
+    }
+  },
+  "cta": {
+    "contact": "Contact Us",
+    "heading": "Ready to play?",
+    "shopNow": "Shop Now",
+    "subtext": "Explore our full collection of toys for every age."
+  },
+  "featured": {
+    "addToCart": "Add to Cart",
+    "eyebrow": "This Week's Pick",
+    "heading": "Featured Toys",
+    "viewAll": "View All"
+  },
+  "hero": {
+    "badge": "Free Shipping on Orders Over $50",
+    "cta": {
+      "learn": "Learn More",
+      "shop": "Shop Now"
+    },
+    "floatingBadge": {
+      "label": "New Arrivals",
+      "value": "50+ Toys"
+    },
+    "headline1": "Playtime Starts Here",
+    "headline2": "Discover toys that spark joy and imagination",
+    "imageAlt": "Colorful toys and play sets",
+    "ratingBadge": "⭐ 4.9/5 from 2,000+ Reviews",
+    "subtext": "Quality toys for kids of all ages. Safe, fun, and built to last."
+  },
+  "productDetail": {
+    "addToCart": "Add to Cart",
+    "addedToCart": "Added to Cart",
+    "ageLabel": "Ages",
+    "breadcrumb": {
+      "home": "Home",
+      "shop": "Shop"
+    },
+    "breadcrumbHome": "Home",
+    "breadcrumbShop": "Shop",
+    "browseAll": "Browse all toys",
+    "cta": {
+      "body": "Join thousands of happy families discovering the perfect toy.",
+      "button": "Add to Cart",
+      "heading": "Ready to play?"
+    },
+    "decreaseQty": "Decrease quantity",
+    "faq": {
+      "a1": "Most orders ship within 2-3 business days. Delivery times vary by location.",
+      "a2": "We offer hassle-free returns within 30 days of purchase for unused items.",
+      "a3": "Yes, all our toys meet or exceed safety standards and are tested for quality.",
+      "heading": "Frequently Asked Questions",
+      "q1": "How long does shipping take?",
+      "q2": "What's your return policy?",
+      "q3": "Are these toys safe?"
+    },
+    "features": {
+      "heading": "Why kids love it"
+    },
+    "featuresTitle": "Key Features",
+    "inStock": "In stock",
+    "increaseQty": "Increase quantity",
+    "nextImage": "Next image",
+    "outOfStock": "Out of stock",
+    "prevImage": "Previous image",
+    "quantityLabel": "Quantity",
+    "related": {
+      "heading": "You might also like"
+    },
+    "relatedSubtitle": "Discover similar toys",
+    "relatedTitle": "Related Products",
+    "remaining": "Only {count} left",
+    "reviews": {
+      "heading": "Customer Reviews",
+      "total": "{count} reviews",
+      "verified": "Verified purchase",
+      "writeReview": "Write a review"
+    },
+    "reviewsSubtitle": "Real feedback from real families",
+    "reviewsTitle": "What Parents Say",
+    "save": "Save",
+    "saveLabel": "Save for later",
+    "share": "Share",
+    "specs": {
+      "heading": "Specifications"
+    },
+    "thumbnailAlt": "Product image thumbnail",
+    "trust": {
+      "returns": "30-day returns",
+      "safety": "Safety tested",
+      "shipping": "Fast shipping"
+    },
+    "trustReturns": "Hassle-free returns",
+    "trustSafe": "Safety certified",
+    "trustShipping": "Ships in 2-3 days",
+    "verified": "Verified",
+    "wishlist": "Add to wishlist"
+  },
+  "shop": {
+    "addToCart": "Add to cart",
+    "added": "Added to cart",
+    "eyebrow": "Discover Our Collection",
+    "filter": {
+      "ageGroup": "Age Group",
+      "brand": "Brand",
+      "category": "Category",
+      "clear": "Clear Filters",
+      "price": "Price",
+      "title": "Filters",
+      "upTo": "Up to"
+    },
+    "heading": "Shop Toys",
+    "noResults": {
+      "body": "Try adjusting your filters or search terms to find what you're looking for.",
+      "cta": "Browse All Toys",
+      "title": "No toys found"
+    },
+    "outOfStock": "Out of Stock",
+    "resultCount": "Showing {count} results",
+    "searchPlaceholder": "Search toys...",
+    "subheading": "Discover joy in every toy"
+  },
+  "shopProducts": {
+    "empty": {
+      "cta": "Start Shopping",
+      "subtitle": "Let's find the perfect toy for you.",
+      "title": "Your cart is empty"
+    },
+    "filters": {
+      "ageGroup": "Age Group",
+      "apply": "Apply Filters",
+      "category": "Category",
+      "clearAll": "Clear All",
+      "toggle": "Show Filters"
+    },
+    "hero": {
+      "subtitle": "Handpicked toys for every age and interest",
+      "title": "Find Your Next Favorite Toy"
+    },
+    "newsletter": {
+      "cta": "Subscribe",
+      "placeholder": "Enter your email",
+      "subtitle": "Get exclusive deals and new arrivals first.",
+      "title": "Join Our Toy Club"
+    },
+    "product": {
+      "addToCart": "Add to Cart",
+      "ages": "Ages {min}–{max}",
+      "outOfStock": "Out of Stock",
+      "wishlist": "Add to Wishlist"
+    },
+    "results": {
+      "count": "{count} toys found"
+    },
+    "search": {
+      "placeholder": "Search by name, brand, or type..."
+    }
+  },
+  "story": {
+    "award": {
+      "label": "Award",
+      "value": "Best Toy Retailer 2024"
+    },
+    "body1": "We believe play is the foundation of childhood joy and learning. For over a decade, we've curated the finest toys from trusted brands worldwide.",
+    "body2": "Every toy in our collection is chosen for quality, safety, and the smiles it brings. We're committed to making playtime magical for every child.",
+    "cta": "Learn More About Us",
+    "eyebrow": "Our Story",
+    "heading": "Toys That Spark Joy",
+    "imageAlt": "Children playing with toys"
+  },
+  "testimonials": {
+    "eyebrow": "What Parents Say",
+    "heading": "Loved by Families",
+    "subtext": "Join thousands of happy parents who trust us for quality toys"
+  }
+}

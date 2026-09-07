@@ -139,55 +139,30 @@ export default function HomePage() {
     <main className="overflow-x-hidden">
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
       <Reveal>
-        <section
-          id="home"
-          className="relative min-h-[92vh] flex items-center bg-gradient-to-br from-[var(--accent)]/10 via-white to-purple-50 overflow-hidden"
-        >
+        <section id="home" className="relative min-h-[92vh] flex items-center bg-gradient-to-br from-[var(--accent)]/10 via-white to-purple-50 overflow-hidden">
           {/* Decorative blobs */}
           <div className="pointer-events-none absolute -top-32 -right-32 w-[520px] h-[520px] rounded-full bg-[var(--accent)]/20 blur-3xl" />
           <div className="pointer-events-none absolute bottom-0 -left-24 w-[360px] h-[360px] rounded-full bg-purple-200/30 blur-3xl" />
 
           <div className="container mx-auto px-6 md:px-12 lg:px-20 py-24 grid lg:grid-cols-2 gap-16 items-center relative z-10">
             {/* Left copy */}
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              animate="visible"
-              className="flex flex-col gap-6"
-            >
-              <motion.span
-                variants={fadeInUp}
-                className="inline-flex items-center gap-2 self-start rounded-full bg-[var(--accent)]/20 border border-[var(--accent)]/40 px-4 py-1.5 text-sm font-semibold text-[var(--accent-foreground)]"
-              >
+            <motion.div variants={staggerContainer} initial="hidden" animate="visible" className="flex flex-col gap-6">
+              <motion.span variants={fadeInUp} className="inline-flex items-center gap-2 self-start rounded-full bg-[var(--accent)]/20 border border-[var(--accent)]/40 px-4 py-1.5 text-sm font-semibold text-[var(--accent-foreground)]">
                 🎉 {t("hero.badge")}
               </motion.span>
 
-              <motion.h1
-                variants={fadeInUp}
-                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900 leading-[1.05] text-balance"
-              >
+              <motion.h1 variants={fadeInUp} className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-tight text-gray-900 leading-[1.05] text-balance">
                 {t("hero.headline1")}
                 <span className="block text-[var(--accent)]">{t("hero.headline2")}</span>
               </motion.h1>
 
-              <motion.p
-                variants={fadeInUp}
-                className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg text-pretty"
-              >
+              <motion.p variants={fadeInUp} className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-lg text-pretty">
                 {t("hero.subtext")}
               </motion.p>
 
               <motion.div variants={fadeInUp} className="flex flex-wrap gap-4 pt-2">
-                <Link
-                  href="/shop"
-                  className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-8 py-4 text-base font-bold text-black shadow-[0_4px_24px_rgba(0,0,0,0.12)] hover:brightness-105 hover:shadow-[0_8px_32px_rgba(0,0,0,0.18)] transition-all duration-300"
-                >
-                  {t("hero.cta.shop")} <ArrowRight className="w-4 h-4" />
-                </Link>
-                <Link
-                  href="/about-us"
-                  className="inline-flex items-center gap-2 rounded-full border-2 border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-800 hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all duration-300"
-                >
+                <Link href="/shop" className="inline-flex items-center gap-2 rounded-full bg-[var(--accent)] px-8 py-4 text-base font-bold text-black shadow-[0_4px_24px_rgba(0,0,0,0.12)] hover:brightness-105 hover:shadow-[0_8px_32px_rgba(0,0,0,0.18)] transition-all duration-300">Shop</Link>
+                <Link href="/about-us" className="inline-flex items-center gap-2 rounded-full border-2 border-gray-300 bg-white px-8 py-4 text-base font-semibold text-gray-800 hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all duration-300">
                   {t("hero.cta.learn")}
                 </Link>
               </motion.div>
@@ -206,18 +181,9 @@ export default function HomePage() {
             </motion.div>
 
             {/* Right image collage */}
-            <motion.div
-              variants={scaleIn}
-              initial="hidden"
-              animate="visible"
-              className="relative hidden lg:flex items-center justify-center"
-            >
+            <motion.div variants={scaleIn} initial="hidden" animate="visible" className="relative hidden lg:flex items-center justify-center">
               <div className="relative w-full max-w-md aspect-square">
-                <img
-                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/site-images/189fa99b048642dc90599e21d1214132.png"
-                  alt={t("hero.imageAlt")}
-                  className="w-full h-full object-cover rounded-3xl shadow-[0_8px_48px_rgba(0,0,0,0.14)] border border-white/60"
-                />
+                <img src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/site-images/189fa99b048642dc90599e21d1214132.png" alt={t("hero.imageAlt")} className="w-full h-full object-cover rounded-3xl shadow-[0_8px_48px_rgba(0,0,0,0.14)] border border-white/60" />
                 {/* Floating badge */}
                 <div className="absolute -bottom-6 -left-8 bg-white rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.12)] border border-gray-100 px-5 py-3 flex items-center gap-3">
                   <span className="text-2xl">🎁</span>
@@ -235,7 +201,6 @@ export default function HomePage() {
           </div>
         </section>
       </Reveal>
-
       {/* ── CATEGORIES ───────────────────────────────────────────────────── */}
       <Reveal>
         <section id="categories" className="py-20 bg-white">
@@ -252,33 +217,21 @@ export default function HomePage() {
               </p>
             </div>
 
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4"
-            >
-              {CATEGORIES_HERO.map((cat) => (
-                <motion.div key={cat.slug} variants={fadeInUp}>
-                  <Link
-                    href={`/shop?category=${cat.slug}`}
-                    className={`flex flex-col items-center gap-3 rounded-2xl border-2 ${cat.color} p-5 hover:scale-105 hover:shadow-[0_4px_20px_rgba(0,0,0,0.10)] transition-all duration-300 group`}
-                  >
-                    <span className="text-4xl group-hover:scale-110 transition-transform duration-300">
-                      {cat.icon}
-                    </span>
-                    <span className="text-sm font-semibold text-gray-800 text-center leading-tight">
-                      {cat.label}
-                    </span>
-                  </Link>
-                </motion.div>
-              ))}
+            <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-60px" }} className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4">
+              {CATEGORIES_HERO.map((cat) => (<motion.div key={cat.slug} variants={fadeInUp}>
+                <Link href={`/shop?category=${cat.slug}`} className={`flex flex-col items-center gap-3 rounded-2xl border-2 ${cat.color} p-5 hover:scale-105 hover:shadow-[0_4px_20px_rgba(0,0,0,0.10)] transition-all duration-300 group`}>
+                  <span className="text-4xl group-hover:scale-110 transition-transform duration-300">
+                    {cat.icon}
+                  </span>
+                  <span className="text-sm font-semibold text-gray-800 text-center leading-tight">
+                    {cat.label}
+                  </span>
+                </Link>
+              </motion.div>))}
             </motion.div>
           </div>
         </section>
       </Reveal>
-
       {/* ── FEATURED PRODUCTS ────────────────────────────────────────────── */}
       <Reveal>
         <section id="featured" className="py-24 bg-gray-50">
@@ -292,82 +245,58 @@ export default function HomePage() {
                   {t("featured.heading")}
                 </h2>
               </div>
-              <Link
-                href="/shop"
-                className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:gap-3 transition-all duration-200 shrink-0"
-              >
+              <Link href="/shop" className="inline-flex items-center gap-1.5 text-sm font-semibold text-[var(--accent)] hover:gap-3 transition-all duration-200 shrink-0">
                 {t("featured.viewAll")} <ChevronRight className="w-4 h-4" />
               </Link>
             </div>
 
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
-            >
-              {FEATURED_PRODUCTS.map((product) => (
-                <motion.div key={product.id} variants={scaleIn}>
-                  <Link
-                    href={`/product/${product.slug}`}
-                    className="group flex flex-col rounded-2xl bg-white border border-gray-100 shadow-[0_1px_4px_rgba(0,0,0,0.06),0_8px_24px_-8px_rgba(0,0,0,0.10)] hover:shadow-[0_4px_32px_rgba(0,0,0,0.14)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
-                  >
-                    <div className="relative aspect-square overflow-hidden bg-gray-50">
-                      <img
-                        src={product.image}
-                        alt={product.name}
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                      />
-                      {product.badge && (
-                        <span
-                          className={`absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-bold ${BADGE_COLORS[product.badge]}`}
-                        >
-                          {product.badge}
+            <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-60px" }} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+              {FEATURED_PRODUCTS.map((product) => (<motion.div key={product.id} variants={scaleIn}>
+                <Link href={`/product/${product.slug}`} className="group flex flex-col rounded-2xl bg-white border border-gray-100 shadow-[0_1px_4px_rgba(0,0,0,0.06),0_8px_24px_-8px_rgba(0,0,0,0.10)] hover:shadow-[0_4px_32px_rgba(0,0,0,0.14)] hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+                  <div className="relative aspect-square overflow-hidden bg-gray-50">
+                    <img src={product.image} alt={product.name} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                    {product.badge && (
+                      <span className={`absolute top-3 left-3 rounded-full px-3 py-1 text-xs font-bold ${BADGE_COLORS[product.badge]}`}>
+                        {product.badge}
+                      </span>
+                    )}
+                    <button aria-label={t("featured.addToCart")} className="absolute bottom-3 right-3 rounded-full bg-white/90 backdrop-blur-sm border border-gray-200 p-2.5 shadow-md opacity-0 group-hover:opacity-100 hover:bg-[var(--accent)] hover:border-[var(--accent)] transition-all duration-200">
+                      <ShoppingCart className="w-4 h-4 text-gray-700" />
+                    </button>
+                  </div>
+                  <div className="flex flex-col gap-2 p-4">
+                    <span className="text-xs font-medium text-gray-400">{product.ageGroup}</span>
+                    <h3 className="font-bold text-gray-900 leading-snug group-hover:text-[var(--accent)] transition-colors duration-200">
+                      {product.name}
+                    </h3>
+                    <div className="flex items-center gap-1.5">
+                      <div className="flex">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <Star
+                            key={i}
+                            className={`w-3.5 h-3.5 ${i < Math.floor(product.rating) ? "fill-amber-400 text-amber-400" : "fill-gray-200 text-gray-200"}`}
+                          />
+                        ))}
+                      </div>
+                      <span className="text-xs text-gray-400">({product.reviewCount})</span>
+                    </div>
+                    <div className="flex items-center gap-2 mt-1">
+                      <span className="text-lg font-extrabold text-gray-900">
+                        ${product.price.toFixed(2)}
+                      </span>
+                      {product.originalPrice && (
+                        <span className="text-sm text-gray-400 line-through">
+                          ${product.originalPrice.toFixed(2)}
                         </span>
                       )}
-                      <button
-                        aria-label={t("featured.addToCart")}
-                        className="absolute bottom-3 right-3 rounded-full bg-white/90 backdrop-blur-sm border border-gray-200 p-2.5 shadow-md opacity-0 group-hover:opacity-100 hover:bg-[var(--accent)] hover:border-[var(--accent)] transition-all duration-200"
-                      >
-                        <ShoppingCart className="w-4 h-4 text-gray-700" />
-                      </button>
                     </div>
-                    <div className="flex flex-col gap-2 p-4">
-                      <span className="text-xs font-medium text-gray-400">{product.ageGroup}</span>
-                      <h3 className="font-bold text-gray-900 leading-snug group-hover:text-[var(--accent)] transition-colors duration-200">
-                        {product.name}
-                      </h3>
-                      <div className="flex items-center gap-1.5">
-                        <div className="flex">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <Star
-                              key={i}
-                              className={`w-3.5 h-3.5 ${i < Math.floor(product.rating) ? "fill-amber-400 text-amber-400" : "fill-gray-200 text-gray-200"}`}
-                            />
-                          ))}
-                        </div>
-                        <span className="text-xs text-gray-400">({product.reviewCount})</span>
-                      </div>
-                      <div className="flex items-center gap-2 mt-1">
-                        <span className="text-lg font-extrabold text-gray-900">
-                          ${product.price.toFixed(2)}
-                        </span>
-                        {product.originalPrice && (
-                          <span className="text-sm text-gray-400 line-through">
-                            ${product.originalPrice.toFixed(2)}
-                          </span>
-                        )}
-                      </div>
-                    </div>
-                  </Link>
-                </motion.div>
-              ))}
+                  </div>
+                </Link>
+              </motion.div>))}
             </motion.div>
           </div>
         </section>
       </Reveal>
-
       {/* ── VALUE PROPS ──────────────────────────────────────────────────── */}
       <Reveal>
         <section className="py-20 bg-[var(--accent)]">
@@ -393,7 +322,6 @@ export default function HomePage() {
           </div>
         </section>
       </Reveal>
-
       {/* ── BRAND STORY / SPLIT ──────────────────────────────────────────── */}
       <Reveal>
         <section id="about" className="py-24 bg-white overflow-hidden">
@@ -401,11 +329,7 @@ export default function HomePage() {
             {/* Image side */}
             <div className="relative order-2 lg:order-1">
               <div className="relative rounded-3xl overflow-hidden shadow-[0_8px_48px_rgba(0,0,0,0.12)]">
-                <img
-                  src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/site-images/c37631a26ac4465897972d773c3c0200.jpg"
-                  alt={t("story.imageAlt")}
-                  className="w-full aspect-[4/3] object-cover"
-                />
+                <img src="https://titoaistorageaccount.blob.core.windows.net/titoai-storage/site-images/c37631a26ac4465897972d773c3c0200.jpg" alt={t("story.imageAlt")} className="w-full aspect-[4/3] object-cover" />
               </div>
               {/* Floating stat card */}
               <div className="absolute -bottom-8 -right-4 lg:-right-10 bg-white rounded-2xl shadow-[0_4px_32px_rgba(0,0,0,0.12)] border border-gray-100 p-5 flex items-center gap-4">
@@ -431,26 +355,19 @@ export default function HomePage() {
               <p className="text-gray-600 leading-relaxed text-pretty">{t("story.body2")}</p>
               <div className="grid grid-cols-2 gap-4 pt-2">
                 {STATS.map((stat, i) => (
-                  <div
-                    key={i}
-                    className="rounded-2xl bg-gray-50 border border-gray-100 p-4 flex flex-col gap-1"
-                  >
+                  <div key={i} className="rounded-2xl bg-gray-50 border border-gray-100 p-4 flex flex-col gap-1">
                     <span className="text-2xl font-extrabold text-gray-900">{stat.value}</span>
                     <span className="text-xs text-gray-500 font-medium">{stat.label}</span>
                   </div>
                 ))}
               </div>
-              <Link
-                href="/about-us"
-                className="inline-flex items-center gap-2 self-start rounded-full border-2 border-gray-900 px-6 py-3 text-sm font-bold text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 mt-2"
-              >
+              <Link href="/about-us" className="inline-flex items-center gap-2 self-start rounded-full border-2 border-gray-900 px-6 py-3 text-sm font-bold text-gray-900 hover:bg-gray-900 hover:text-white transition-all duration-300 mt-2">
                 {t("story.cta")} <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
         </section>
       </Reveal>
-
       {/* ── TESTIMONIALS ─────────────────────────────────────────────────── */}
       <Reveal>
         <section id="reviews" className="py-24 bg-gray-950 overflow-hidden">
@@ -467,46 +384,33 @@ export default function HomePage() {
               </p>
             </div>
 
-            <motion.div
-              variants={staggerContainer}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, margin: "-60px" }}
-              className="grid grid-cols-1 md:grid-cols-3 gap-6"
-            >
-              {TESTIMONIALS.map((review) => (
-                <motion.div key={review.id} variants={fadeInUp}>
-                  <div className="flex flex-col gap-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm p-6 h-full hover:bg-white/8 transition-colors duration-300">
-                    <div className="flex">
-                      {Array.from({ length: review.rating }).map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
-                      ))}
-                    </div>
-                    <p className="text-gray-300 leading-relaxed text-sm flex-1">
-                      &ldquo;{review.text}&rdquo;
-                    </p>
-                    <div className="flex items-center gap-3 pt-2 border-t border-white/10">
-                      <img
-                        src={review.avatar}
-                        alt={review.name}
-                        className="w-10 h-10 rounded-full object-cover border-2 border-white/20"
-                      />
-                      <div>
-                        <p className="text-white font-semibold text-sm">{review.name}</p>
-                        <p className="text-gray-500 text-xs">{review.location}</p>
-                      </div>
-                      <span className="ml-auto text-xs text-[var(--accent)] font-medium bg-[var(--accent)]/10 rounded-full px-2.5 py-1">
-                        {review.product}
-                      </span>
-                    </div>
+            <motion.div variants={staggerContainer} initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-60px" }} className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {TESTIMONIALS.map((review) => (<motion.div key={review.id} variants={fadeInUp}>
+                <div className="flex flex-col gap-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm p-6 h-full hover:bg-white/8 transition-colors duration-300">
+                  <div className="flex">
+                    {Array.from({ length: review.rating }).map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-amber-400 text-amber-400" />
+                    ))}
                   </div>
-                </motion.div>
-              ))}
+                  <p className="text-gray-300 leading-relaxed text-sm flex-1">
+                    &ldquo;{review.text}&rdquo;
+                  </p>
+                  <div className="flex items-center gap-3 pt-2 border-t border-white/10">
+                    <img src={review.avatar} alt={review.name} className="w-10 h-10 rounded-full object-cover border-2 border-white/20" />
+                    <div>
+                      <p className="text-white font-semibold text-sm">{review.name}</p>
+                      <p className="text-gray-500 text-xs">{review.location}</p>
+                    </div>
+                    <span className="ml-auto text-xs text-[var(--accent)] font-medium bg-[var(--accent)]/10 rounded-full px-2.5 py-1">
+                      {review.product}
+                    </span>
+                  </div>
+                </div>
+              </motion.div>))}
             </motion.div>
           </div>
         </section>
       </Reveal>
-
       {/* ── CTA BANNER ───────────────────────────────────────────────────── */}
       <Reveal>
         <section className="py-24 bg-gradient-to-br from-purple-600 via-purple-500 to-[var(--accent)] relative overflow-hidden">
@@ -521,16 +425,10 @@ export default function HomePage() {
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 shrink-0">
-              <Link
-                href="/shop"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-base font-bold text-purple-700 shadow-[0_4px_24px_rgba(0,0,0,0.18)] hover:shadow-[0_8px_40px_rgba(0,0,0,0.24)] hover:scale-105 transition-all duration-300"
-              >
+              <Link href="/shop" className="inline-flex items-center justify-center gap-2 rounded-full bg-white px-8 py-4 text-base font-bold text-purple-700 shadow-[0_4px_24px_rgba(0,0,0,0.18)] hover:shadow-[0_8px_40px_rgba(0,0,0,0.24)] hover:scale-105 transition-all duration-300">
                 {t("cta.shopNow")} <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/60 px-8 py-4 text-base font-semibold text-white hover:bg-white/10 transition-all duration-300"
-              >
+              <Link href="/contact" className="inline-flex items-center justify-center gap-2 rounded-full border-2 border-white/60 px-8 py-4 text-base font-semibold text-white hover:bg-white/10 transition-all duration-300">
                 {t("cta.contact")}
               </Link>
             </div>
